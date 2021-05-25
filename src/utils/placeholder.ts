@@ -6,15 +6,16 @@ const placeholder = `
 
 ### Made with Next.js and marked.js ###
 
+#### Links: ####
+
+[Link to source code!](https://github.com/Onixaz/nextjs-markdown-previewer)
 
 #### Emphasis: ####
 
 ~~Here's a strikethrough~~  then an *italic text*, some **bold** and then **_combined_**. 
 
 
-#### Links: ####
 
-[I'm an inline-style link](https://www.google.com)
 
 #### Lists: #### 
 
