@@ -8,10 +8,6 @@ interface PreviewProps {
 }
 
 const Preview: FC<PreviewProps> = ({ markdown }) => {
-  useEffect(() => {
-    hljs.initHighlighting()
-  }, [])
-
   return (
     <>
       <PreviewStyles.Label>Preview</PreviewStyles.Label>
