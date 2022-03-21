@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle<Props>`
 
   body{
     background: ${({ theme }) => theme.lightWhite};
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   a {
@@ -21,13 +22,11 @@ const GlobalStyle = createGlobalStyle<Props>`
     
   }
  
-
   img{
     max-width: 100%;
   }
 
-  
-  
+    
 
   
 `
