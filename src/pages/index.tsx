@@ -9,6 +9,9 @@ const IndexPage: NextPage<IndexPageProps> = () => {
   return (
     <Utils.Container>
       <Calculator />
+      <Utils.Link href="https://github.com/Onixaz/nextjs-calculator">
+        Source code on Github
+      </Utils.Link>
     </Utils.Container>
   )
 }

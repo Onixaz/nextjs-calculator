@@ -31,3 +31,15 @@ export const Wrapper = styled.div`
   min-height: 70vh;
   margin: 0 auto;
 `
+
+export const Link = styled.a`
+  color: #000;
+  margin: 2rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: #90c0e6;
+  }
+`
